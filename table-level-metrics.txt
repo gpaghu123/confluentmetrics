@@ -1,0 +1,24 @@
+{
+  "resStatus": "SUCCESS",
+  "result": {
+    "cloneEngineName": "DG74318",
+    "connectionName": "DG74318",
+    "locationName": "DC1A",
+    "resStatus": "ACTIVE",
+    "maskReplicationEngineStatus": "ACTIVE",
+    "maskCloneServerStatus": "ACTIVE",
+    "cloneStatus": "Online",
+    "iuStatus": "ENABLED",
+    "replicationStatus": "STARTED",
+    "resStatusMessage": "Success",
+    "hostName": "9.30.71.35",
+    "portNumber": "8120",
+    "tableCloneStatus": {
+      "initialLoadPending": 0,
+      "loading": 0,
+      "loadedOnly": 0,
+      "synchronizationActive": 311,
+      "error": 0
+    }
+  }
+}
