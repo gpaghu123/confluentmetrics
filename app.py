@@ -5,7 +5,6 @@ import time
 import json
 from urllib.request import urlopen
 import base64
-import requests
 import urllib.request
 
 
