@@ -6,8 +6,9 @@ import json
 from urllib.request import urlopen
 import base64
 import urllib.request
+import logging
 
-
+logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBUG)
 # token= base64.b64encode("admin:Uh68bJcGJithBQl87Q9bp1SW0jZ0kfwht4ZV6u45".encode("ascii"))
 
 # urlOltpInstance="https://cpd-zen1.apps.dgsvt5.cp.fyre.ibm.com/icp4data-databases/dg-1672018833030580/zen1/clone_system/clone_engine/status?force_refresh=true"
@@ -21,14 +22,14 @@ import urllib.request
 #     jsonstr = json.load(f)
 f = open("instance-level-metrics.txt","r")
 jsonstr = json.load(f)
-ary = jsonstr["result"]
+ary = jsonstr["result"]["tableCloneStatus"]
 
 nameAry = []
 metricAry = []
 for key in ary:
     nameAry.append(key)
 for i in range(0,len(nameAry)-1):
-    metricAry.append( Info(nameAry[i],nameAry[i]))
+    metricAry.append( Gauge(nameAry[i],nameAry[i]))
 
 prometheus_client.REGISTRY.unregister(prometheus_client.GC_COLLECTOR)
 prometheus_client.REGISTRY.unregister(prometheus_client.PLATFORM_COLLECTOR)
@@ -45,7 +46,8 @@ if __name__ == '__main__':
     #generalInfo.set_function(get_Value)
     while True:
         i = 0
+        logging.info("Loop")
         for metric in metricAry:
-            metric.info({nameAry[i]:ary[nameAry[i]]})
+            metric.set(ary[nameAry[i]])
             i+=1
-        time.sleep(5)
+        time.sleep(15)
