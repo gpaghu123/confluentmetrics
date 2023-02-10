@@ -8,7 +8,8 @@ import base64
 import urllib.request
 import logging
 
-logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(level=logging.DEBUG)
+#logging.basicConfig(filename='example.log', encoding='utf-8', level=logging.DEBUG)
 # token= base64.b64encode("admin:Uh68bJcGJithBQl87Q9bp1SW0jZ0kfwht4ZV6u45".encode("ascii"))
 
 # urlOltpInstance="https://cpd-zen1.apps.dgsvt5.cp.fyre.ibm.com/icp4data-databases/dg-1672018833030580/zen1/clone_system/clone_engine/status?force_refresh=true"
@@ -46,7 +47,7 @@ if __name__ == '__main__':
     #generalInfo.set_function(get_Value)
     while True:
         i = 0
-        logging.info("Loop")
+        logging.debug("Loop")
         for metric in metricAry:
             metric.set(ary[nameAry[i]])
             i+=1
