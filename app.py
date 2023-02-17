@@ -2,7 +2,6 @@ from prometheus_client import start_http_server, Gauge, Info, make_wsgi_app
 import prometheus_client
 import time
 import base64
-import logging
 import pycurl
 import certifi
 from io import BytesIO
@@ -53,7 +52,7 @@ for i in range(0,len(nameAry)-1):
 
 if __name__ == '__main__':
     # Start up the server to expose the metrics.
-    start_http_server(8081)
+    start_http_server(8080)
     # Generate some requests.
     #generalInfo.set_function(get_Value)
 while True:
