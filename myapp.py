@@ -15,7 +15,6 @@ prometheus_client.REGISTRY.unregister(prometheus_client.PLATFORM_COLLECTOR)
 prometheus_client.REGISTRY.unregister(prometheus_client.PROCESS_COLLECTOR)
 
 def refresh_instance_metrics():
-    print("refreshing...")
     token= base64.b64encode("admin:Uh68bJcGJithBQl87Q9bp1SW0jZ0kfwht4ZV6u45".encode("UTF-8"))
     buffer = BytesIO()
     c = pycurl.Curl()
@@ -34,33 +33,24 @@ def refresh_instance_metrics():
     finally:
         c.close()
 
-    #print(buffer.getvalue().decode('iso-8859-1'))
-    jsonstr = json.loads(buffer.getvalue().decode('iso-8859-1'))
-    return(jsonstr["result"])
+    print(buffer.getvalue().decode('iso-8859-1'))
+    try:
+        tstr = buffer.getvalue().decode('iso-8859-1')
+        jsonstr = json.loads(tstr)
+        if jsonstr["resStatus"] == "SUCCESS":
+            return(jsonstr["result"])
+        else:
+            raise Exception("Unexpected return status"+jsonstr["resStatus"])
+    except:
+        raise Exception("Invalid json received" + tstr)
 # f = open("instance-level-metrics.txt","r")
 # jsonstr = json.load(f)
 ary = refresh_instance_metrics()
-ns = 'DGInstance'
-subsys = ary["cloneEngineName"]+"_"+ary["locationName"]
-ary = ary["tableCloneStatus"]
 nameAry = []
 metricAry = []
 for key in ary:
-    nameAry.append(key)
-for i in range(0,len(nameAry)-1):
-    metricAry.append( Gauge(nameAry[i],'',namespace=ns, subsystem=subsys))
-
-
-if __name__ == '__main__':
-    # Start up the server to expose the metrics.
-    start_http_server(8081)
-    # Generate some requests.
-    #generalInfo.set_function(get_Value)
-while True:
-    i = 0
-
-    ary = refresh_instance_metrics()["tableCloneStatus"]
-    for metric in metricAry:
-        metric.set(ary[nameAry[i]])
-        i+=1
-    time.sleep(15)
+    if isinstance(ary[key], str):
+        s = "yes"
+    else:
+        s = "no"
+    print(key, type(ary[key]), s, ary[key])
