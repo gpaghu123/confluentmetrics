@@ -1,6 +1,6 @@
 FROM registry.access.redhat.com/ubi9/python-39:latest
 
-# By default, listen on port 8081
+# By default, listen on port 8080
 EXPOSE 8080/tcp
 
 # Set the working directory in the container
