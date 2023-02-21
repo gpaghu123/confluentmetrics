@@ -106,12 +106,12 @@ nstable = 'DGTable'
 nameAryTable = {}
 for item in arytable:
     rname,replicating,sizeRet,lastload,lastrepl = get_metrics(item)
-    metricAry = {}
-    metricAry["repl"] = Gauge("Replicating","Table replication. 1=Enabled",namespace=nstable, subsystem=rname)
-    metricAry["size"] = Gauge("TableSize","Table size in GB",namespace=nstable, subsystem=rname)
-    metricAry["lastload"]= Gauge("lastload","Minutes since last load",namespace=nstable, subsystem=rname)
-    metricAry["lastrepl"]= Gauge("lastrepl","Minutes since last replicate",namespace=nstable, subsystem=rname)
-    nameAryTable[rname] = metricAry
+    metricAryTable = {}
+    metricAryTable["repl"] = Gauge("Replicating","Table replication. 1=Enabled",namespace=nstable, subsystem=rname)
+    metricAryTable["size"] = Gauge("TableSize","Table size in GB",namespace=nstable, subsystem=rname)
+    metricAryTable["lastload"]= Gauge("lastload","Minutes since last load",namespace=nstable, subsystem=rname)
+    metricAryTable["lastrepl"]= Gauge("lastrepl","Minutes since last replicate",namespace=nstable, subsystem=rname)
+    nameAryTable[rname] = metricAryTable
 if __name__ == '__main__':
     # Start up the server to expose the metrics.
     start_http_server(8080)
@@ -127,8 +127,8 @@ while True:
     ary = refresh_table_metrics()
     for item in ary:
         rname,replicating,sizeRet,lastload,lastrepl = get_metrics(item)
-        nameAry[rname]["repl"].set(replicating)
-        nameAry[rname]["size"].set(replicating)
-        nameAry[rname]["lastload"].set(lastload)
-        nameAry[rname]["lastrepl"].set(lastrepl)
+        nameAryTable[rname]["repl"].set(replicating)
+        nameAryTable[rname]["size"].set(sizeRet)
+        nameAryTable[rname]["lastload"].set(lastload)
+        nameAryTable[rname]["lastrepl"].set(lastrepl)
     time.sleep(15)
