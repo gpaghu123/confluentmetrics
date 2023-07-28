@@ -85,7 +85,7 @@ def retrieve_metrics(common_url, token):
                 c.close()
         logging.info("received response.")
         # retrieve the bytes, decode to UTF and convert to string array; then remove the timestamp and generate a new array
-        # attach the new line characer to each response line to make it more human readable. Access the endpoint from any browser
+        # attach the new line characer to each response line to make lsit more human readable. Access the endpoint from any browser
         # to see the result
         ret_dict = process_lags(strary1)
         strary2 = help_str + type_str + generate_metric(ret_dict) + generate(strary1)
