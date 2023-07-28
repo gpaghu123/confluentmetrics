@@ -17,8 +17,8 @@ logging.basicConfig(
 )
 
 #These variables need to be changed per the actual requirement. better to put them in toml files, and to the environment
-common_url = 'https://api.telemetry.confluent.cloud/v2/metrics/cloud/export?resource.kafka.id=lkc-zyq5d'
-token = 'U4YQPIG3FY5VGIVP:qawBUHP865DS0oIx9imTDpzkS0BuCCRjTG0CyKNrj20DWT07Zd73dw2vjnpuS646'
+common_url = ''
+token = ''
 
 help_str = "# HELP confluent_cons_consumer_lag_offsets The lag (consolidated by consumer_group) between a group member's committed offset and the partition's high watermark.\n"
 type_str = "# TYPE confluent_cons_consumer_lag_offsets gauge\n"
