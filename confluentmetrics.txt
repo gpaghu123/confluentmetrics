@@ -385,7 +385,7 @@ confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMP
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="IWL_AGENT_EMP_CONSUMER",}  1
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="PEP_AGENT_EMP_CONSUMER",}  1
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="SSOS_AGENT_EMP_CONSUMER",}  1
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="connect-AgentScreening-CB",}  0
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="connect-AgentScreening-CB",}  2000
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGRESPONSETOPIC",consumer_group_id="EAService",}  0
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",consumer_group_id="AGENTHUBSERVICE",}  0
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",consumer_group_id="EBSOCOPARTYHANDLER",}  0
@@ -401,7 +401,7 @@ confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CAS_AGEN
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COINME_CALLBACK",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",}  0
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",consumer_group_id="TENS_EKS",}  0
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",consumer_group_id="COMP_AUDIT_CONSUMER",}  3
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",consumer_group_id="ConsumerNotificationsServiceListenerGroup",}  0
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",consumer_group_id="ConsumerNotificationsServiceListenerGroup",}  5000
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADREQ",consumer_group_id="CONSUMERPROFILELOADREQ",}  0
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADRES",consumer_group_id="CONSUMERPROFILELOADREQ",}  0
 confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CRYPTO_TRANSACTION_COMMENT",consumer_group_id="CRYPTO_DATA_NOTIFICATIONS_Q1",}  0

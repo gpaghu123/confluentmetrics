@@ -5,8 +5,11 @@ import sys
 import logging
 import re
 from flask import Flask
+import requests
 
-global dev_mode 
+global dev_mode
+warning_threshold =1000
+critical_threshold = 5000
 
 logging.basicConfig(
     level=logging.INFO,
@@ -19,6 +22,7 @@ logging.basicConfig(
 #These variables need to be changed per the actual requirement. better to put them in toml files, and to the environment
 common_url = ''
 token = ''
+event_url = "http://localhost:42699/com.instana.plugin.generic.event"
 
 help_str = "# HELP confluent_cons_consumer_lag_offsets The lag (consolidated by consumer_group) between a group member's committed offset and the partition's high watermark.\n"
 type_str = "# TYPE confluent_cons_consumer_lag_offsets gauge\n"
@@ -55,10 +59,21 @@ def retrieve_metrics(common_url, token):
                             lag_dict[m1.group(1)] = int(m1.group(2))
             return lag_dict
         
+        def create_event(msg_txt, consumer_group, metric_val, severity):
+            payload = {"title":"Lag Threshold " + msg_txt, "text": consumer_group + ' ' + str(metric_val), "duration": 60000, "severity": severity}
+            r = requests.post(event_url, json=payload)
+        
         def generate_metric(metric_dict):
             res_str = ""
-            for consumer_group in metric_dict.keys():
-                res_str +=  "confluent_cons_consumer_lag_offsets{consumer_group="+consumer_group+"}  "+ str(metric_dict[consumer_group])+"\n"
+            with open("consumer_groups.txt","w") as f:
+                for consumer_group in metric_dict.keys():
+                    metric_name = "confluent_cons_consumer_lag_offsets{consumer_group="+consumer_group+"}  "
+                    f.write(metric_name+"\n")
+                    res_str +=  metric_name + str(metric_dict[consumer_group])+"\n"
+                    if ( metric_dict[consumer_group] >= 1000 and metric_dict[consumer_group] < 5000): 
+                        create_event("Warning",consumer_group, metric_dict[consumer_group], 5)
+                    elif  metric_dict[consumer_group] >= 5000:   
+                        create_event("Critical",consumer_group, metric_dict[consumer_group], 10)
             return res_str
 
         logging.info("refreshing..." )
@@ -87,12 +102,13 @@ def retrieve_metrics(common_url, token):
         # retrieve the bytes, decode to UTF and convert to string array; then remove the timestamp and generate a new array
         # attach the new line characer to each response line to make lsit more human readable. Access the endpoint from any browser
         # to see the result
-        ret_dict = process_lags(strary1)
+        ret_dict = process_lags(strary1)            
+
         strary2 = help_str + type_str + generate_metric(ret_dict) + generate(strary1)
         return app.response_class(strary2, mimetype='text') 
 
-# start the app to serve responses to mertics requests
-dev_mode = False
+# start the app to serve responses to metrics requests
+dev_mode = True
 app = Flask(__name__)
 #you can change the endpoint below
 @app.route("/")
