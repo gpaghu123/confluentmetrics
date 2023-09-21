@@ -82,9 +82,9 @@ def retrieve_metrics(common_url, token):
                     metric_name = "confluent_cons_consumer_lag_offsets{consumer_group="+consumer_group+"}  "
                     f.write(metric_name+"\n")
                     res_str +=  metric_name + str(metric_dict[consumer_group])+"\n"
-                    if ( metric_dict[consumer_group] >= 1000 and metric_dict[consumer_group] < 5000): 
+                    if ( metric_dict[consumer_group] >= warning_threshold and metric_dict[consumer_group] < critical_threshold): 
                         create_event("Warning",consumer_group, metric_dict[consumer_group], 5)
-                    elif  metric_dict[consumer_group] >= 5000:   
+                    elif  metric_dict[consumer_group] >= critical_threshold:   
                         create_event("Critical",consumer_group, metric_dict[consumer_group], 10)
             return res_str
 
