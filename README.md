@@ -5,6 +5,8 @@ Confluent cloud has a well documented [metrics api](https://docs.confluent.io/cl
 
 The Confluent result has a timestamp attached to the metric, which causes some confusion with Instana. This code simply removes the timestamp and sends the Confluent result to the Instana backend. The current example uses Flask as the app mechanism and Gunicorn as the app server. Should be suficient in most instances, particularly behind firewalls. It needs more robust mechanism such as gunicorn behind Nginx if is exposed to the Web. 
 
+Beware: Confluence returns very large numbers for some metrics, that causes issues with Instana. The code drops the exponent, and reduces the mantissa to an integer, sometimes quite large. Still good for trend analysis and anomaly detection, but not good if the expectation is to get the actual numbers. 
+
 The test system was a Linux VM running Python, Flask and Gunicorn and the Instana agent. Since the metric scraping only happens relatively infrequently as configured in the Instana configuration, this doesnt need much infrastructure resources. **Be aware of API metering that Confluent does on their end**. 512MB of memory, 10-15GB of disk and 1-2 CPUs should be more than sufficient. No data is stored on disk. 
 
 Refer Instana documenation for how to set this up on Kubernetes. 
