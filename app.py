@@ -6,6 +6,7 @@ import logging
 import re
 from flask import Flask
 import requests
+from decimal import Decimal
 
 global dev_mode
 warning_threshold =1000
@@ -27,21 +28,32 @@ event_url = "http://localhost:42699/com.instana.plugin.generic.event"
 help_str = "# HELP confluent_cons_consumer_lag_offsets The lag (consolidated by consumer_group) between a group member's committed offset and the partition's high watermark.\n"
 type_str = "# TYPE confluent_cons_consumer_lag_offsets gauge\n"
 
-def retrieve_metrics(common_url, token):
+def retrieve_metrics(common_url, token): 
+        def fexp(number):
+            (sign, digits, exponent) = Decimal(number).as_tuple()
+            return len(digits) + exponent - 1
+
+        def fman(number):
+            return Decimal(number).quantize(1)
+        
         def remove_timestamp(s):
             # this function removes the timestamp at the end of confluent metrics that Instana does not like. 
             # all metrics begin with confluent, and have a fixed format that the re is matching for.  
-            # The backend would not import metrics that has a real number format. That is why the code drops the decimal
-            # and digits that succeed it. Pretty much always .0. 
+            # The backend would not import metrics that has a real number format. That is why we retains only the mantissa
+            
             m = re.match(r"(^confluent\S*)(\s*\S*\s*)\d*$",s) 
             if m:
-                s = m.group(1)+" "+m.group(2)[0:-3]
+                print("grp 1 " +m.group(1))
+                print("grp 2 "+m.group(2))
+                mantis = fman(m.group(2))
+                print("mantis " + str(mantis))
+                s = m.group(1) + " " + str(mantis)
             return s
         
         def generate(strary):
          res_str = ""
          for s in strary:
-            res_str +=  s + '\n' if not dev_mode else s
+            res_str +=  s + '\n' 
          return(res_str)
 
         # consolidate the lags by consumer_group_id. Hopefully this will allow creation of alerts
@@ -78,8 +90,9 @@ def retrieve_metrics(common_url, token):
 
         logging.info("refreshing..." )
         if dev_mode:
+            print("using file")
             with open('confluentmetrics.txt', "r") as f:
-                strary1 = f.readlines()
+                strary1 = list(map(remove_timestamp, f.readlines()))
         else: 
             buffer = BytesIO()
             c = pycurl.Curl()
@@ -108,7 +121,7 @@ def retrieve_metrics(common_url, token):
         return app.response_class(strary2, mimetype='text') 
 
 # start the app to serve responses to metrics requests
-dev_mode = True
+dev_mode = False
 app = Flask(__name__)
 #you can change the endpoint below
 @app.route("/")

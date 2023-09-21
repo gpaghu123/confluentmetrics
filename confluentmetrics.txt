@@ -1,495 +1,515 @@
 # HELP confluent_kafka_server_request_bytes The delta count of total request bytes from the specified request types sent over the network. Each sample is the number of bytes sent since the previous data point. The count is sampled every 60 seconds.
 # TYPE confluent_kafka_server_request_bytes gauge
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="ApiVersions",}  201
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="ApiVersions",}  0
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ApiVersions",}  272
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeCluster",}  58
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeGroups",}  51120
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Fetch",}  1.4847773
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Fetch",}  982910
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Fetch",}  367315
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="FindCoordinator",}  0
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="FindCoordinator",}  156425
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Heartbeat",}  2993688
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Heartbeat",}  100540
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Heartbeat",}  13620
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="InitProducerId",}  0
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="JoinGroup",}  424648
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListGroups",}  4176
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="ListOffsets",}  31214
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListOffsets",}  3594628
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Metadata",}  32775
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Metadata",}  496
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Metadata",}  367404
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetCommit",}  3787320
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="OffsetCommit",}  0
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetCommit",}  0
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetFetch",}  6732
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetFetch",}  115802
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Produce",}  6848372
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Produce",}  0
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Produce",}  2497213
-confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="SyncGroup",}  1375572
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="ApiVersions",} 451.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",type="ApiVersions",} 396.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ApiVersions",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="CreateTopics",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeCluster",} 29.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeConfigs",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeGroups",} 29028.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeMirrors",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Fetch",} 2.2834332E7 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Fetch",} 982432.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Fetch",} 447417.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="FindCoordinator",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="FindCoordinator",} 94951.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Heartbeat",} 2996379.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Heartbeat",} 100540.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Heartbeat",} 16289.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="InitProducerId",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="JoinGroup",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListGroups",} 2088.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListMirrors",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListOffsets",} 1942280.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Metadata",} 16858.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Metadata",} 641.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",type="Metadata",} 249.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Metadata",} 216915.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetCommit",} 1.1169439E7 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetCommit",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetFetch",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetFetch",} 67060.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetForLeaderEpoch",} 0.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Produce",} 9.8076402E7 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",type="Produce",} 1269.0 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Produce",} 1.202384E8 1695319020000
+confluent_kafka_server_request_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="SyncGroup",} 0.0 1695319020000
 # HELP confluent_kafka_server_response_bytes The delta count of total response bytes from the specified response types sent over the network. Each sample is the number of bytes sent since the previous data point. The count is sampled every 60 seconds.
 # TYPE confluent_kafka_server_response_bytes gauge
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="ApiVersions",}  2073
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="ApiVersions",}  0
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ApiVersions",}  3455
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeCluster",}  720
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeGroups",}  6144193
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Fetch",}  5.6685439
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Fetch",}  316113
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Fetch",}  372746
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="FindCoordinator",}  0
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="FindCoordinator",}  349561
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Heartbeat",}  340928
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Heartbeat",}  12480
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Heartbeat",}  1600
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="InitProducerId",}  0
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="JoinGroup",}  559026
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListGroups",}  90553
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="ListOffsets",}  33676
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListOffsets",}  4289614
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Metadata",}  579371
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Metadata",}  7398
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Metadata",}  7161933
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetCommit",}  931787
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="OffsetCommit",}  0
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetCommit",}  0
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetFetch",}  6120
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetFetch",}  1676119
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Produce",}  299004
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Produce",}  0
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Produce",}  60696
-confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="SyncGroup",}  1095652
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="ApiVersions",} 4230.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",type="ApiVersions",} 4230.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ApiVersions",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="CreateTopics",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeCluster",} 360.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeConfigs",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeGroups",} 3551808.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeMirrors",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Fetch",} 4.08067305E8 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Fetch",} 315819.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Fetch",} 754021.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="FindCoordinator",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="FindCoordinator",} 223849.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Heartbeat",} 347952.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Heartbeat",} 12480.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Heartbeat",} 1920.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="InitProducerId",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="JoinGroup",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListGroups",} 49776.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListMirrors",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListOffsets",} 2304622.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Metadata",} 305255.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Metadata",} 10231.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",type="Metadata",} 2457.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Metadata",} 3846815.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetCommit",} 2799229.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetCommit",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetFetch",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetFetch",} 907283.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetForLeaderEpoch",} 0.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Produce",} 2888111.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",type="Produce",} 228.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Produce",} 352680.0 1695319020000
+confluent_kafka_server_response_bytes{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="SyncGroup",} 0.0 1695319020000
 # HELP confluent_kafka_server_received_bytes The delta count of bytes of the customer's data received from the network. Each sample is the number of bytes received since the previous data sample. The count is sampled every 60 seconds.
 # TYPE confluent_kafka_server_received_bytes gauge
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGRESPONSETOPIC",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",}  48132
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="CASPARTYEVENTHANDLER",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="CAS_AGENTPARTYHUB",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",}  337898
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",}  746282
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",}  708567
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EAService-EASAS_STORE-changelog",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERAUDIT",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EMG_CUSTOMER",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EMG_CUST_ACCOUNT",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EMG_TRANSACTION",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",}  2248063
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="GCPHANDLER",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",}  692
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",}  2031
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MDMPROFILES",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",}  960497
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="ONFIDO_SAVE_ID_IMAGE",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="PARTY_AGENT_DATA",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="SAS-SAS_STORE-changelog",}  503484
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",}  97627
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",}  1356804
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",}  140845
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="ScreeningValidation-Reactor-Service-REACTOR_STREAM_STORE-changelog",}  170244
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",}  110290
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",}  1347855
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",}  0
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="connect-configs",}  195
-confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="connect-offsets",}  136583
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",} 31171.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",} 187163.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",} 25561.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="COINME_CALLBACK",} 0.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",} 218963.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",} 5035691.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",} 10448.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="CRYPTO_TRANSACTION_COMMENT",} 0.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="CouchbaseIDS",} 462875.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",} 2.1183063E7 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",} 2.2490262E7 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EBSCRYPTO",} 0.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EMG_CUSTOMER",} 168577.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EMG_CUST_ACCOUNT",} 32708.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EMG_TRANSACTION",} 3708040.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",} 4.1870062E7 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",} 22668.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="GCPHANDLER",} 4512.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",} 0.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="IOS_TO_MDM",} 17044.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",} 29200.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",} 5464.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",} 5443.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",} 369090.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",} 7.2381742E7 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MDMPROFILES",} 1057837.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MGOCouchbase",} 689815.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",} 79808.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MGO_PWMB_NOTIFICATIONS",} 0.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",} 286.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",} 548186.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",} 3677835.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",} 608263.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",} 1029.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="SAS-SAS_STORE-changelog",} 1.9074291E7 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",} 551176.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",} 6907656.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",} 4283178.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",} 0.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="ScreeningValidation-Reactor-Service-REACTOR_STREAM_STORE-changelog",} 1013055.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",} 989855.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",} 5921286.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",} 730004.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="connect-configs",} 0.0 1695319020000
+confluent_kafka_server_received_bytes{kafka_id="lkc-zyq5d",topic="connect-offsets",} 312415.0 1695319020000
 # HELP confluent_kafka_server_sent_bytes The delta count of bytes of the customer's data sent over the network. Each sample is the number of bytes sent since the previous data point. The count is sampled every 60 seconds.
 # TYPE confluent_kafka_server_sent_bytes gauge
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGRESPONSETOPIC",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",}  144396
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="CASPARTYEVENTHANDLER",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="CAS_AGENTPARTYHUB",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",}  337898
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",}  746282
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",}  708567
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERAUDIT",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",}  2248063
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="GCPHANDLER",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",}  692
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",}  2031
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MDMPROFILES",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",}  960497
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="ONFIDO_SAVE_ID_IMAGE",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="PARTY_AGENT_DATA",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="SAS-SAS_STORE-changelog",}  51502
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",}  97379
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",}  2.1764973
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",}  141199
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",}  219720
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",}  2.4268794
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="TRUELAYER_CALLBACK",}  0
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="connect-configs",}  390
-confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="connect-offsets",}  273166
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",} 31171.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",} 561489.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",} 51122.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="COINME_CALLBACK",} 0.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",} 218963.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",} 5036279.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",} 10448.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="CRYPTO_TRANSACTION_COMMENT",} 0.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="CouchbaseIDS",} 462875.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",} 2.1183063E7 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",} 2.2599114E7 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="EBSCRYPTO",} 0.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",} 4.1869737E7 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",} 68004.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="GCPHANDLER",} 4512.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",} 0.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="IOS_TO_MDM",} 17044.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",} 29200.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",} 5464.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",} 5443.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",} 370440.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",} 7.2408909E7 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MDMPROFILES",} 2117205.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",} 80302.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MGO_PWMB_NOTIFICATIONS",} 0.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",} 286.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",} 548186.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",} 3677835.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",} 607772.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",} 1029.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",} 550596.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",} 1.1049564E8 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",} 4283899.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",} 0.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",} 1979710.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",} 1.0504461E8 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",} 2920016.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="connect-configs",} 0.0 1695319020000
+confluent_kafka_server_sent_bytes{kafka_id="lkc-zyq5d",topic="connect-offsets",} 624830.0 1695319020000
 # HELP confluent_kafka_server_received_records The delta count of records received. Each sample is the number of records received since the previous data sample. The count is sampled every 60 seconds.
 # TYPE confluent_kafka_server_received_records gauge
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGRESPONSETOPIC",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",}  394
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="CASPARTYEVENTHANDLER",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="CAS_AGENTPARTYHUB",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",}  388
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",}  92
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",}  80
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EAService-EASAS_STORE-changelog",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERAUDIT",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EMG_CUSTOMER",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EMG_CUST_ACCOUNT",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EMG_TRANSACTION",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",}  1712
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="GCPHANDLER",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",}  2
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",}  3
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MDMPROFILES",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",}  257
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="ONFIDO_SAVE_ID_IMAGE",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="PARTY_AGENT_DATA",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="SAS-SAS_STORE-changelog",}  1585
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",}  392
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",}  376
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",}  396
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="ScreeningValidation-Reactor-Service-REACTOR_STREAM_STORE-changelog",}  743
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",}  363
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",}  378
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",}  0
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="connect-configs",}  1
-confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="connect-offsets",}  1182
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",} 109.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",} 1909.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",} 253.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="COINME_CALLBACK",} 0.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",} 174.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",} 5243.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",} 11.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="CRYPTO_TRANSACTION_COMMENT",} 0.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="CouchbaseIDS",} 192.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",} 1002.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",} 1033.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EBSCRYPTO",} 0.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EMG_CUSTOMER",} 151.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EMG_CUST_ACCOUNT",} 33.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EMG_TRANSACTION",} 1068.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",} 2531.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",} 10.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="GCPHANDLER",} 6.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",} 0.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="IOS_TO_MDM",} 13.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",} 78.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",} 38.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",} 2.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",} 544.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",} 2203.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MDMPROFILES",} 2237.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MGOCouchbase",} 1002.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",} 225.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MGO_PWMB_NOTIFICATIONS",} 0.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",} 1.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",} 295.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",} 984.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",} 1175.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",} 3.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="SAS-SAS_STORE-changelog",} 27123.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",} 1927.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",} 1919.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",} 11650.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",} 0.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="ScreeningValidation-Reactor-Service-REACTOR_STREAM_STORE-changelog",} 4024.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",} 1867.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",} 1847.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",} 227.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="connect-configs",} 0.0 1695319020000
+confluent_kafka_server_received_records{kafka_id="lkc-zyq5d",topic="connect-offsets",} 2660.0 1695319020000
 # HELP confluent_kafka_server_sent_records The delta count of records sent. Each sample is the number of records sent since the previous data point. The count is sampled every 60 seconds.
 # TYPE confluent_kafka_server_sent_records gauge
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGRESPONSETOPIC",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",}  1182
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="CASPARTYEVENTHANDLER",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="CAS_AGENTPARTYHUB",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",}  388
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",}  92
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",}  80
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERAUDIT",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",}  1712
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="GCPHANDLER",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",}  2
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",}  3
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MDMPROFILES",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",}  257
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="ONFIDO_SAVE_ID_IMAGE",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="PARTY_AGENT_DATA",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="SAS-SAS_STORE-changelog",}  152
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",}  390
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",}  6015
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",}  397
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",}  729
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",}  6808
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="TRUELAYER_CALLBACK",}  0
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="connect-configs",}  2
-confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="connect-offsets",}  2364
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",} 109.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",} 5727.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",} 506.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="COINME_CALLBACK",} 0.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",} 174.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",} 5242.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",} 11.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="CRYPTO_TRANSACTION_COMMENT",} 0.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="CouchbaseIDS",} 192.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",} 1002.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",} 1034.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="EBSCRYPTO",} 0.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",} 2531.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",} 30.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="GCPHANDLER",} 6.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",} 0.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="IOS_TO_MDM",} 13.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",} 78.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",} 38.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",} 2.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",} 545.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",} 2202.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MDMPROFILES",} 4479.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",} 228.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MGO_PWMB_NOTIFICATIONS",} 0.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",} 1.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",} 295.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",} 984.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",} 1175.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",} 3.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",} 1927.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",} 30711.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",} 11651.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",} 0.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",} 3736.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",} 32714.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",} 908.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="connect-configs",} 0.0 1695319020000
+confluent_kafka_server_sent_records{kafka_id="lkc-zyq5d",topic="connect-offsets",} 5320.0 1695319020000
 # HELP confluent_kafka_server_retained_bytes The current count of bytes retained by the cluster. The count is sampled every 60 seconds.
 # TYPE confluent_kafka_server_retained_bytes gauge
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",}  293839
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGRESPONSETOPIC",}  12803
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",}  30310
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AGENT_IDUPLOAD_RESULTS",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AUTO_REFUND_TRANSACTIONS",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",}  4.9205246
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",}  5.61958998
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",}  1.7997054
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CASPARTYEVENTHANDLER",}  213692
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CAS_AGENTPARTYHUB",}  26373
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CBHashKey",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="COINME_CALLBACK",}  5633
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",}  6.56342614
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",}  5.30529302
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",}  2.37893168
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADREQ",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADRES",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CRYPTO_TRANSACTION_COMMENT",}  101977
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CouchbaseIDS",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",}  2.2211960612E
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",}  2.59563519
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EAService-EASAS_STORE-changelog",}  70151
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EBSCRYPTO",}  7119
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERAUDIT",}  1815858
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERCCM",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERDAMI",}  45261
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EMG_CUSTOMER",}  1.71370103
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EMG_CUST_ACCOUNT",}  4.4284625
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EMG_TRANSACTION",}  2.950430361
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EMG_TRAN_AMT",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ENTERPRISELOGGING",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",}  1.1232423864E
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",}  4.5083214
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="FX_RATE_AGENT_CORRIDOR",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="GCPHANDLER",}  1.4487726
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",}  8882367
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="GDFRECORDSTATUSUPDATER",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="INVCPYMTPROCESSREQ",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="INVCPYMTPROCESSRES",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="IOS_TO_MDM",}  5.5619143
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",}  4.427339
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_CONSUMER_STATUS",}  70127
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",}  1.6742746
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",}  5.6433163
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",}  9.21295908
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",}  1.1287046838E
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MDMPROFILES",}  1.325292702
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MGOCouchbase",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",}  6.8292045
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MGO_PWMB_NOTIFICATIONS",}  141856
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MGTEVENTHANDLER",}  1455
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",}  5984380
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MOValidationEntityAlertEvents",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MOValidationEntityEvents",}  30086
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MoneyOrderEvents",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",}  4.57171825
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",}  5.567366306
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="NOTIFICATIONS_BATCH",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ONFIDO_PROCESS_CALLBACK",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ONFIDO_SAVE_ID_IMAGE",}  38528
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",}  2.48696737
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="PARTY_AGENT_DATA",}  87854
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",}  4043824
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="REF.WC.KEYWORD",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SACreditBalanceUpdate",}  72050
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SAS-SAS_STORE-changelog",}  1.6912960333E
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",}  1.095223743
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",}  1.1209908379E
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",}  7.572803735
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SF_AGENTBOT_EVENTS",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",}  5.88335182
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SF_UNAUTHBOT_EVENTS",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SS_CHAT_POLL_EVENTS",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ScreeningValidation-Reactor-Service-REACTOR_STREAM_STORE-changelog",}  2.022828655
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="StandardConsumerData",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",}  2.293704826
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",}  2.0673683649E
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",}  7.0752246
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRUELAYER_CALLBACK",}  1955
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRUSTLY_CALLBACK",}  118244
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="WALLETPROFILEBATCHREQUEST",}  0
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="_confluent-command",}  1390
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="connect-configs",}  112865
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="connect-offsets",}  1.07737367
-confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="connect-status",}  60108
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGRESPONSETOPIC",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AGENT_IDUPLOAD_RESULTS",} 48480.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="AUTO_REFUND_TRANSACTIONS",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="Alert-Ingestion-Service-AIS_STORE-changelog",} 3.075111E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",} 2.7278258E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",} 1.6533013E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CASPARTYEVENTHANDLER",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CAS_AGENTPARTYHUB",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CBHashKey",} 115883.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="COINME_CALLBACK",} 212112.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",} 7.5394934E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",} 4.770190912E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="COMPLIANCE_BATCH_AUDIT_REQUEST",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",} 1.5884133E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADREQ",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADRES",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CRYPTO_TRANSACTION_COMMENT",} 1885269.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="CouchbaseIDS",} 1.849894967E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",} 2.2550453757E10 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="DIGITAL_PROFILE_CANONICAL",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",} 3.33107301E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EAService-EASAS_STORE-changelog",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EBSCRYPTO",} 18763.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERAUDIT",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERCCM",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERDAMI",} 30720.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EMG_CUSTOMER",} 7.67946273E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EMG_CUST_ACCOUNT",} 2.51629173E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EMG_TRANSACTION",} 7.578177345E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EMG_TRAN_AMT",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ENTERPRISELOGGING",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",} 1.1377052345E10 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",} 1.07755637E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="FX_RATE_AGENT_CORRIDOR",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="GCPHANDLER",} 2.0823527E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",} 5866176.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="GDFRECORDSTATUSUPDATER",} 5178574.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="INVCPYMTPROCESSREQ",} 2145813.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="INVCPYMTPROCESSRES",} 3427614.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="IOS_TO_MDM",} 5.3912602E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",} 6.0828583E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_CONSUMER_STATUS",} 117366.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",} 1.3791363E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",} 5810222.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",} 3.31084978E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",} 1.1447411903E10 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MDMPROFILES",} 1.98959055E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MGOCouchbase",} 3.579937415E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MGO_LITE_PROFILES",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",} 2.9020848E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MGO_PWMB_NOTIFICATIONS",} 472172.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MGTEVENTHANDLER",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",} 1714855.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MOValidationEntityAlertEvents",} 5.0489056E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MOValidationEntityEvents",} 3.0409176E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="MoneyOrderEvents",} 11675.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",} 1.64577212E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",} 3.769037574E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="NOTIFICATIONS_BATCH",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ONFIDO_PROCESS_CALLBACK",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ONFIDO_SAVE_ID_IMAGE",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",} 1.499228015E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="PARTY_AGENT_DATA",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",} 1535840.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="REF.WC.KEYWORD",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SACreditBalanceUpdate",} 54007.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SAS-SAS_STORE-changelog",} 1.8675427854E10 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",} 5.46293785E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",} 9.611311074E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",} 4.924847183E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SF_AGENTBOT_EVENTS",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",} 5.988818E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SF_UNAUTHBOT_EVENTS",} 6.9314936E7 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SHAREDLOGGINGSERVICE_EVENTS",} 1230.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="SS_CHAT_POLL_EVENTS",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="ScreeningValidation-Reactor-Service-REACTOR_STREAM_STORE-changelog",} 1.046519234E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="StandardConsumerData",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",} 1.171936287E9 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",} 2.0844240542E10 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",} 4.2204453E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRUELAYER_CALLBACK",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="TRUSTLY_CALLBACK",} 66673.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="VendorPaymentStatus",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="WALLETPROFILEBATCHREQUEST",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="WalletPrcsrTranEvent",} 5470.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="_confluent-command",} 1390.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="connect-configs",} 192367.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="connect-offsets",} 1.32164733E8 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="connect-status",} 126385.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="q1-connect-configs-ccloud",} 10335.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="q1-connect-offsets-ccloud",} 0.0 1695319020000
+confluent_kafka_server_retained_bytes{kafka_id="lkc-zyq5d",topic="q1-connect-status-ccloud",} 0.0 1695319020000
 # HELP confluent_kafka_server_active_connection_count The count of active authenticated connections.
 # TYPE confluent_kafka_server_active_connection_count gauge
-confluent_kafka_server_active_connection_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",}  3663
-confluent_kafka_server_active_connection_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",}  187
-confluent_kafka_server_active_connection_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",}  130
+confluent_kafka_server_active_connection_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",} 4122.0 1695319020000
+confluent_kafka_server_active_connection_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",} 176.0 1695319020000
+confluent_kafka_server_active_connection_count{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",} 7.0 1695319020000
+confluent_kafka_server_active_connection_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",} 166.0 1695319020000
 # HELP confluent_kafka_server_request_count The delta count of requests received over the network. Each sample is the number of requests received since the previous data point. The count sampled every 60 seconds.
 # TYPE confluent_kafka_server_request_count gauge
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="ApiVersions",}  3
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Fetch",}  197322
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="FindCoordinator",}  0
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Heartbeat",}  21304
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="InitProducerId",}  0
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="JoinGroup",}  999
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="ListOffsets",}  149
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Metadata",}  348
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetCommit",}  12670
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetFetch",}  51
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Produce",}  3845
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="SyncGroup",}  1000
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="ApiVersions",}  0
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Fetch",}  15053
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Heartbeat",}  780
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Metadata",}  6
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="OffsetCommit",}  0
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Produce",}  0
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ApiVersions",}  5
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeCluster",}  2
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeGroups",}  96
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Fetch",}  4300
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="FindCoordinator",}  2271
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Heartbeat",}  100
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListGroups",}  144
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListOffsets",}  25965
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Metadata",}  4796
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetCommit",}  0
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetFetch",}  2172
-confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Produce",}  702
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="ApiVersions",} 6.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Fetch",} 248166.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="FindCoordinator",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Heartbeat",} 21737.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="InitProducerId",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="JoinGroup",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Metadata",} 189.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetCommit",} 50958.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetFetch",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="OffsetForLeaderEpoch",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="Produce",} 39413.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",type="SyncGroup",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Fetch",} 15039.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Heartbeat",} 780.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",type="Metadata",} 9.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",type="ApiVersions",} 6.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",type="Metadata",} 3.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",type="Produce",} 3.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ApiVersions",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="CreateTopics",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeCluster",} 1.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeConfigs",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeGroups",} 72.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="DescribeMirrors",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Fetch",} 5220.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="FindCoordinator",} 1240.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Heartbeat",} 120.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListGroups",} 72.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListMirrors",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="ListOffsets",} 14333.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Metadata",} 2827.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetCommit",} 0.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="OffsetFetch",} 1252.0 1695319020000
+confluent_kafka_server_request_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",type="Produce",} 4549.0 1695319020000
 # HELP confluent_kafka_server_partition_count The number of partitions.
 # TYPE confluent_kafka_server_partition_count gauge
-confluent_kafka_server_partition_count{kafka_id="lkc-zyq5d",}  1324
+confluent_kafka_server_partition_count{kafka_id="lkc-zyq5d",} 1415.0 1695319020000
 # HELP confluent_kafka_server_successful_authentication_count The delta count of successful authentications. Each sample is the number of successful authentications since the previous data point. The count sampled every 60 seconds.
 # TYPE confluent_kafka_server_successful_authentication_count gauge
-confluent_kafka_server_successful_authentication_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",}  3
-confluent_kafka_server_successful_authentication_count{kafka_id="lkc-zyq5d",principal_id="sa-55qzrq",}  0
-confluent_kafka_server_successful_authentication_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",}  5
+confluent_kafka_server_successful_authentication_count{kafka_id="lkc-zyq5d",principal_id="sa-4n5jjk",} 6.0 1695319020000
+confluent_kafka_server_successful_authentication_count{kafka_id="lkc-zyq5d",principal_id="sa-v6mz90",} 6.0 1695319020000
+confluent_kafka_server_successful_authentication_count{kafka_id="lkc-zyq5d",principal_id="u-41wgqz",} 0.0 1695319020000
 # HELP confluent_kafka_server_consumer_lag_offsets The lag between a group member's committed offset and the partition's high watermark.
 # TYPE confluent_kafka_server_consumer_lag_offsets gauge
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="AAL_CONSUMER-AGENTEMPLOYEE",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="EAService",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="IWL_AGENT_EMP_CONSUMER",}  1
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="PEP_AGENT_EMP_CONSUMER",}  1
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="SSOS_AGENT_EMP_CONSUMER",}  1
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="connect-AgentScreening-CB",}  2000
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGRESPONSETOPIC",consumer_group_id="EAService",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",consumer_group_id="AGENTHUBSERVICE",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",consumer_group_id="EBSOCOPARTYHANDLER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENT_IDUPLOAD_RESULTS",consumer_group_id="ID_UPLOAD_RESULTS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AUTO_REFUND_TRANSACTIONS",consumer_group_id="ARS_AUTOREFUNDTXNS_EKS_Q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",consumer_group_id="CTEPValidator",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",consumer_group_id="CTEPublisher",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",consumer_group_id="TRANALERT_CONSUMER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",consumer_group_id="EVENTSTATUS_CONSUMER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",consumer_group_id="STATUS_consumer",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CASPARTYEVENTHANDLER",consumer_group_id="EBSCASPARTYHANDLER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CAS_AGENTPARTYHUB",consumer_group_id="EBSHUBHANDLER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COINME_CALLBACK",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",consumer_group_id="TENS_EKS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",consumer_group_id="COMP_AUDIT_CONSUMER",}  3
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",consumer_group_id="ConsumerNotificationsServiceListenerGroup",}  5000
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADREQ",consumer_group_id="CONSUMERPROFILELOADREQ",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADRES",consumer_group_id="CONSUMERPROFILELOADREQ",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CRYPTO_TRANSACTION_COMMENT",consumer_group_id="CRYPTO_DATA_NOTIFICATIONS_Q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CouchbaseIDS",consumer_group_id="IMAGE_TRANSFER_SERVICE_Q1_EKS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",consumer_group_id="ImageDirectoryService",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",consumer_group_id="DR-AWS-S3-RECEIPTS_Q1_EKS",}  1
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EBSCRYPTO",consumer_group_id="connect-EBSCRYPTO",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERAUDIT",consumer_group_id="EBSHUBHANDLER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERCCM",consumer_group_id="EBSHUBHANDLER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERDAMI",consumer_group_id="EBSHUBHANDLER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",consumer_group_id="SESSIONPROFILES",}  129
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",consumer_group_id="Consumer_PTPS_CLOUD_q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",consumer_group_id="GCPHANDLER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",consumer_group_id="TENS",}  1
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="FX_RATE_AGENT_CORRIDOR",consumer_group_id="FXRATESERVIE",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="GCPHANDLER",consumer_group_id="GCP_SSCONSUMER_UPDATE_CONFIG",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",consumer_group_id="GDF",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="GDFRECORDSTATUSUPDATER",consumer_group_id="GDF",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="INVCPYMTPROCESSREQ",consumer_group_id="INVPYMTBATCH",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="INVCPYMTPROCESSRES",consumer_group_id="INVPYMTBATCH",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="IOS_TO_MDM",consumer_group_id="Consumer_IOS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",consumer_group_id="LOYALTYREWARDSLOADER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="LOYALTY_CONSUMER_STATUS",consumer_group_id="MEMBER_STATUS_LOADER_CONSUMER-Q1_EKS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",consumer_group_id="ORMB_LOYALTY_ENROLLMENT_PROCESSOR",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",consumer_group_id="ORMB_LOYALTY_PLUS_DETECTION",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",consumer_group_id="PNOS_MAASPARTNEREVENTNOTIFICATIONS_CLOUD_Q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",consumer_group_id="MDM",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MDMPROFILES",consumer_group_id="Consumer_DLSLoader_EKS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MDMPROFILES",consumer_group_id="PNPPS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",consumer_group_id="MGO_NOTIFICATIONS_GROUP_Q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MGO_PWMB_NOTIFICATIONS",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MGTEVENTHANDLER",consumer_group_id="MGTEVENTHANDLER",}  34
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",consumer_group_id="INJECTION_CONSUMER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MOValidationEntityEvents",consumer_group_id="MOValidationEntityEvents",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MoneyOrderEvents",consumer_group_id="MOEvents",}  19
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",consumer_group_id="ConsumerNotificationsServiceListenerGroup",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",consumer_group_id="GSI_NOTIFY_CONSUMER",}  4
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="NOTIFICATIONS_BATCH",consumer_group_id="NotificationsBatchSupportListenerGroup-EKS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="ONFIDO_SAVE_ID_IMAGE",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",consumer_group_id="Q1-ACI_CONSUMER_Q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="PARTY_AGENT_DATA",consumer_group_id="ORMB_PARTY_AGENT_DATA_CONS_CONFIG",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",consumer_group_id="PartnerNotificationEvents_Q1CLOUD",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SACreditBalanceUpdate",consumer_group_id="CREDIT_BALANCE_UPDATE_SERVICE_Q1_EKS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",consumer_group_id="ScreeningValidation-Reactor-Service",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="AAS_CONSUMER",}  2
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="ABMT_CONSUMER",}  2
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="AGENT_AGG_CONSUMER",}  2
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CASNRT_VALIDATE_CONSUMER",}  3
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CAS_CONSUMER",}  4
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CFSS_CONSUMER",}  3
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="COMP_MANAGE_UNC_CONSUMER",}  1
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CWSS",}  2
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CaptifyScreeningService",}  3
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="ECDDS_CONSUMER",}  5
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="FIPS_Screening",}  2
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="GSI_SCREENING_CONSUMER",}  4
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="IWL_CONSUMER",}  5
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="PEP_CONSUMER",}  3
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="SAS",}  3
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="SSOS_CONSUMER",}  2
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",consumer_group_id="SAS",}  3
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",consumer_group_id="CAREBOT",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",consumer_group_id="Alert-Ingestion-Service",}  39
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",consumer_group_id="ECDDS_COMMIT_CONSUMER",}  14
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="AAS_COMMITED_TRNANS_CONSUMER",}  10
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="AGENT_AGG_COMMIT_CONSUMER",}  8
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="ASUS_CONSUMER",}  12
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="CASNRT_COMMIT_CONSUMER",}  15
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="CFSS_COMMIT_CONSUMER",}  15
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="COMP_MANAGE_COMMIT_CONSUMER",}  10
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="CTEMFLoader",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="CWSS_COMMITED_TRNANS_CONSUMER",}  15
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="Consumer_DLSLoader_EKS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="Consumer_UCP",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="ECDD_COMMITED_TRNANS_CONSUMER",}  5
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="IMAGE_TRANSACTION_EVENTS_PROCESSOR",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="MGO_CORE_EVENT_PROCESSOR",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="ORMB_TRANSACTIONS_EVENTS_PROCESSOR",}  2
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="PROMO_CODE_TRACKER_CONS_CONFIG",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="PTPS_TRANCOMMITTEDEVENTS_CLOUD_Q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="Q1-STEP_CONSUMER_Q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="TENS_EKS",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",consumer_group_id="ARS_TRANEVENTSTATUS_EKS_Q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",consumer_group_id="CTEMFLoader",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",consumer_group_id="MGO_CORE_EVENT_PROCESSOR",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",consumer_group_id="PTPS_TRANEVENTSTATUS_CLOUD_Q1",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRUELAYER_CALLBACK",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",}  0
-confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRUSTLY_CALLBACK",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",}  0
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="AAL_CONSUMER-AGENTEMPLOYEE",} 9.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="EAService",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="IWL_AGENT_EMP_CONSUMER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="PEP_AGENT_EMP_CONSUMER",} 7.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="SSOS_AGENT_EMP_CONSUMER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGREQUESTTOPIC",consumer_group_id="connect-AgentScreening-CB",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTEMPLOYEESCREENINGRESPONSETOPIC",consumer_group_id="EAService",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",consumer_group_id="AGENTHUBSERVICE",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENTPARTYHUB",consumer_group_id="EBSOCOPARTYHANDLER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AGENT_IDUPLOAD_RESULTS",consumer_group_id="ID_UPLOAD_RESULTS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="AUTO_REFUND_TRANSACTIONS",consumer_group_id="ARS_AUTOREFUNDTXNS_EKS_Q1",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",consumer_group_id="CTEPValidator",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",consumer_group_id="CTEPublisher",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_COMMITTED_EVENTS",consumer_group_id="TRANALERT_CONSUMER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",consumer_group_id="EVENTSTATUS_CONSUMER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="BASE_EVENT_STATUS",consumer_group_id="STATUS_consumer",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CASPARTYEVENTHANDLER",consumer_group_id="EBSCASPARTYHANDLER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CAS_AGENTPARTYHUB",consumer_group_id="EBSHUBHANDLER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COINME_CALLBACK",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COMMITTED_TRAN_NOTIFICATION_EVENTS",consumer_group_id="TENS_EKS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COMPLIANCE_AUDIT_REQUEST",consumer_group_id="COMP_AUDIT_CONSUMER",} 77.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="COMPLIANCE_BATCH_AUDIT_REQUEST",consumer_group_id="COMP_BATCH_AUDIT_CONSUMER",} 2.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERNOTIFICATIONS",consumer_group_id="ConsumerNotificationsServiceListenerGroup",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADREQ",consumer_group_id="CONSUMERPROFILELOADREQ",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CONSUMERPROFILELOADRES",consumer_group_id="CONSUMERPROFILELOADREQ",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CRYPTO_TRANSACTION_COMMENT",consumer_group_id="CRYPTO_DATA_NOTIFICATIONS_Q1",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="CouchbaseIDS",consumer_group_id="IMAGE_TRANSFER_SERVICE_Q1_EKS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="DIGITALRECEIPTS",consumer_group_id="ImageDirectoryService",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="DR-AWS-S3-RECEIPTS",consumer_group_id="DR-AWS-S3-RECEIPTS_Q1_EKS",} 14.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EBSCRYPTO",consumer_group_id="connect-EBSCRYPTO",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EBSCRYPTO",consumer_group_id="connect-ORMBCRYPTO",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERAUDIT",consumer_group_id="EBSHUBHANDLER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERCCM",consumer_group_id="EBSHUBHANDLER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EBSEVENTHANDLERDAMI",consumer_group_id="EBSHUBHANDLER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="EXPIREDSESSIONPROFILES",consumer_group_id="SESSIONPROFILES",} 64.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",consumer_group_id="Consumer_PTPS_CLOUD_q1",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",consumer_group_id="GCPHANDLER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="FFSTAGEDTRANSACTION",consumer_group_id="TENS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="FX_RATE_AGENT_CORRIDOR",consumer_group_id="FXRATESERVIE",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="GCPHANDLER",consumer_group_id="GCP_SSCONSUMER_UPDATE_CONFIG_Q1",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="GDFJOBCONTROLLER",consumer_group_id="GDF",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="GDFRECORDSTATUSUPDATER",consumer_group_id="GDF",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="INVCPYMTPROCESSREQ",consumer_group_id="INVPYMTBATCH",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="INVCPYMTPROCESSRES",consumer_group_id="INVPYMTBATCH",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="IOS_TO_MDM",consumer_group_id="Consumer_IOS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="LOYALTYREWARDS",consumer_group_id="LOYALTYREWARDSLOADER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="LOYALTY_CONSUMER_STATUS",consumer_group_id="MEMBER_STATUS_LOADER_CONSUMER-Q1_EKS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="LOYALTY_MEMBERS",consumer_group_id="ORMB_LOYALTY_ENROLLMENT_PROCESSOR",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="LOYALTY_PLUS_DETECTION",consumer_group_id="ORMB_LOYALTY_PLUS_DETECTION",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MAAS_PARTNER_EVENT_NOTIFICATIONS",consumer_group_id="PNOS_MAASPARTNEREVENTNOTIFICATIONS_CLOUD_Q1",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MDMEMSPROFILES",consumer_group_id="MDM",} 1.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MDMPROFILES",consumer_group_id="Consumer_DLSLoader_EKS",} 1.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MDMPROFILES",consumer_group_id="PNPPS",} 2.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MGO_NOTIFICATIONS",consumer_group_id="MGO_NOTIFICATIONS_GROUP_Q1",} 27.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MGO_PWMB_NOTIFICATIONS",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MGTEVENTHANDLER",consumer_group_id="MGTEVENTHANDLER",} 11.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MISSINGPLUSPROFILES",consumer_group_id="INJECTION_CONSUMER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MOValidationEntityEvents",consumer_group_id="MOValidationEntityEvents",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="MoneyOrderEvents",consumer_group_id="MOEvents",} 19.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="NON_TRAN_NOTIFICATION_EVENTS",consumer_group_id="ConsumerNotificationsServiceListenerGroup",} 1.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="NOTIFICATIONSERVICINGALERTS",consumer_group_id="GSI_NOTIFY_CONSUMER",} 8.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="NOTIFICATIONS_BATCH",consumer_group_id="NotificationsBatchSupportListenerGroup-EKS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="ONFIDO_SAVE_ID_IMAGE",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="ORMBCOMMISSIONS",consumer_group_id="Q1-ACI_CONSUMER_Q1",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="PARTY_AGENT_DATA",consumer_group_id="ORMB_PARTY_AGENT_DATA_CONS_CONFIG",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="PartnerNotificationEvents",consumer_group_id="PartnerNotificationEvents_Q1CLOUD",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SACreditBalanceUpdate",consumer_group_id="CREDIT_BALANCE_UPDATE_SERVICE_Q1_EKS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGCOMPLETE",consumer_group_id="ScreeningValidation-Reactor-Service",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="AAS_CONSUMER",} 15.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="ABMT_CONSUMER",} 15.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="AGENT_AGG_CONSUMER",} 13.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CASNRT_VALIDATE_CONSUMER",} 17.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CAS_CONSUMER",} 10.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CFSS_CONSUMER",} 17.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="COMP_MANAGE_UNC_CONSUMER",} 3.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CWSS",} 15.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="CaptifyScreeningService",} 7.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="ECDDS_CONSUMER",} 26.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="FIPS_Screening",} 15.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="GSI_SCREENING_CONSUMER",} 7.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="IWL_CONSUMER",} 11.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="PEP_CONSUMER",} 14.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="SAS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGREQUEST",consumer_group_id="SSOS_CONSUMER",} 15.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SCREENINGRESPONSE",consumer_group_id="SAS",} 1.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SF_CAREBOT_EVENTS",consumer_group_id="CAREBOT",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SF_UNAUTHBOT_EVENTS",consumer_group_id="UNAUTHBOT",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="SHAREDLOGGINGSERVICE_EVENTS",consumer_group_id="SHAREDSERVICESLOGGINGSERVICE",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",consumer_group_id="Alert-Ingestion-Service",} 251.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_ALERTS",consumer_group_id="ECDDS_COMMIT_CONSUMER",} 46.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="AAS_COMMITED_TRNANS_CONSUMER",} 55.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="AGENT_AGG_COMMIT_CONSUMER",} 64.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="ASUS_CONSUMER",} 57.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="CASNRT_COMMIT_CONSUMER",} 51.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="CFSS_COMMIT_CONSUMER",} 53.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="COMP_MANAGE_COMMIT_CONSUMER",} 67.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="CTEMFLoader",} 7.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="CWSS_COMMITED_TRNANS_CONSUMER",} 51.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="Consumer_DLSLoader_EKS",} 16.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="Consumer_UCP",} 13042.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="ECDD_COMMITED_TRNANS_CONSUMER",} 59.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="IMAGE_TRANSACTION_EVENTS_PROCESSOR",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="MGO_CORE_EVENT_PROCESSOR",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="ORMB_TRANSACTIONS_EVENTS_PROCESSOR",} 10.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="PROMO_CODE_TRACKER_CONS_CONFIG",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="PTPS_TRANCOMMITTEDEVENTS_CLOUD_Q1",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="Q1-STEP_CONSUMER_Q1",} 34.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_COMMITTED_EVENTS",consumer_group_id="TENS_EKS",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",consumer_group_id="ARS_TRANEVENTSTATUS_EKS_Q1",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",consumer_group_id="CTEMFLoader",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",consumer_group_id="MGO_CORE_EVENT_PROCESSOR",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRAN_EVENT_STATUS",consumer_group_id="PTPS_TRANEVENTSTATUS_CLOUD_Q1",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRUELAYER_CALLBACK",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRUSTLY_CALLBACK",consumer_group_id="MGO_PARTNER_EVENT_LISTENER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="WALLETPROFILEBATCHREQUEST",consumer_group_id="PSS_CONSUMER",} 0.0 1695319020000
+confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="WalletPrcsrTranEvent",consumer_group_id="WALLET_TRANSACTION_RESOURCE_LISTENER",} 0.0 1695319020000
 # HELP confluent_kafka_server_cluster_link_destination_response_bytes The delta count of cluster linking response bytes from all request types. Each sample is the number of bytes sent since the previous data point. The count is sampled every 60 seconds.
 # TYPE confluent_kafka_server_cluster_link_destination_response_bytes gauge
 # HELP confluent_kafka_server_cluster_link_source_response_bytes The delta count of cluster linking source response bytes from all request types. Each sample is the number of bytes sent since the previous data point. The count is sampled every 60 seconds.
@@ -504,4 +524,4 @@ confluent_kafka_server_consumer_lag_offsets{kafka_id="lkc-zyq5d",topic="TRUSTLY_
 # TYPE confluent_kafka_server_cluster_link_mirror_topic_bytes gauge
 # HELP confluent_kafka_server_cluster_load_percent A measure of the utilization of the cluster. The value is between 0.0 and 1.0.
 # TYPE confluent_kafka_server_cluster_load_percent gauge
-confluent_kafka_server_cluster_load_percent{kafka_id="lkc-zyq5d",}  0.0
+confluent_kafka_server_cluster_load_percent{kafka_id="lkc-zyq5d",} 0.08209789064323073 1695319020000
