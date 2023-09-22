@@ -1,4 +1,4 @@
-# This is an example of scraping metrics form Confluent Cloud and injecting them into Instana
+# This is an example of scraping metrics from Confluent Cloud and injecting them into Instana
 
 
 Confluent cloud has a well documented [metrics api](https://docs.confluent.io/cloud/current/monitoring/metrics-api.html), and already delivers metrics either in Openmetrics or JSON format. In this example, we use the OpenMetrics format. 
